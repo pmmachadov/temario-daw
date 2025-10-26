@@ -2,20 +2,28 @@
 
 Apuntes y ejercicios correspondientes al temario del CFGS de Desarrollo de Aplicaciones Web (DAW).
 
-Actualizado a marzo de 2024.
+Actualizado a octubre de 2025.
 
-## 1DAW
-  - [Bases de datos](BBDD)
-  - [Entornos de Desarrollo](EED)
-  - [Formación y Orientación Laboral](FOL)
-  - [Lenguajes de Marcas](LLMM) 
-  - [Programación](PROG)
-  - [Sistemas Informáticos](SSII)
+## 📂 Estructura del Proyecto
 
-## 2DAW
-  - [Desarrollo web en entorno cliente](DWEC)
-  - [Desarrollo web en entorno servidor](DWES)
-  - [Despliegue de aplicacione web](DEAW)
-  - [Diseño de interfaces web](DIW)
-  - [Empresa e iniciativa emprendedora](EIE)
-  - [Inglés técnico para grado superior](ITGS)
+### [1DAW](1DAW/) - Primer Año
+
+- [Bases de Datos](1DAW/BBDD)
+- [Entornos de Desarrollo](1DAW/EED)
+- [Formación y Orientación Laboral](1DAW/FOL)
+- [Lenguajes de Marcas](1DAW/LLMM)
+- [Programación](1DAW/PROG)
+- [Sistemas Informáticos](1DAW/SSII)
+
+### [2DAW](2DAW/) - Segundo Año
+
+- [Desarrollo Web en Entorno Cliente](2DAW/DWEC)
+- [Desarrollo Web en Entorno Servidor](2DAW/DWES)
+- [Despliegue de Aplicaciones Web](2DAW/DEAW)
+- [Diseño de Interfaces Web](2DAW/DIW)
+- [Empresa e Iniciativa Emprendedora](2DAW/EIE)
+- [Inglés Técnico para Grado Superior](2DAW/ITGS)
+
+### 📁 Recursos Adicionales
+
+- [Proyectos Finales IOC](PROYECTOS-FINALES-IOC/) - Ejemplos de proyectos finales del módulo M12
