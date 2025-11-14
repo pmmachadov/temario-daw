@@ -1,5 +1,31 @@
 {
   "terminal.integrated.env.windows": {
     "PATH": "${env:PATH};C:\\Program Files\\nodejs\\"
-  }
+  },
+  "workbench.colorCustomizations": {
+    "[Default Dark+]": {
+      "editor.background": "#000000",
+      "sideBar.background": "#000000",
+      "activityBar.background": "#000000",
+      "titleBar.activeBackground": "#000000",
+      "statusBar.background": "#000000",
+      "panel.background": "#000000",
+      "menu.background": "#000000",
+      "menubar.selectionBackground": "#1a1a1a",
+      "list.hoverBackground": "#1a1a1a"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Default Dark+]": {
+      "textMateRules": [
+        {
+          "scope": "text",
+          "settings": {
+            "foreground": "#FFFFFF"
+          }
+        }
+      ]
+    }
+  },
+  "docxodt.customCss": "body { background-color: #000000 !important; color: #FFFFFF !important; } .docx-wrapper, .odt-wrapper { background-color: #000000 !important; } .docx-page, .odt-page { border: none !important; } div[class*='viewer'] { background-color: #000000 !important; } * { background-color: #000000 !important; color: #FFFFFF !important; }"
 }
