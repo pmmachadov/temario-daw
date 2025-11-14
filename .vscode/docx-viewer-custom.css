@@ -1,0 +1,75 @@
+/* Forzar fondo negro absoluto en todo el visor */
+html, body {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+}
+
+/* Contenedor principal del documento */
+.docx-wrapper,
+.odt-wrapper,
+#docx-container,
+#odt-container {
+    background-color: #000000 !important;
+}
+
+/* Eliminar cualquier padding o margen gris */
+body > div,
+body > section,
+.docx-page-wrapper,
+.odt-page-wrapper {
+    background-color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Página del documento */
+.docx-page,
+.odt-page,
+article {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Forzar negro en todos los elementos del visor */
+iframe,
+webview,
+#webview,
+.monaco-editor,
+.monaco-editor-background {
+    background-color: #000000 !important;
+}
+
+/* Menú y barra de herramientas */
+nav,
+.toolbar,
+.menu-bar,
+header {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+}
+
+/* Botones y controles */
+button,
+.button,
+input,
+select {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #000000 !important;
+}
+
+/*Scrollbar */
+::-webkit-scrollbar {
+    background-color: #000000 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000 !important;
+}
+
+/* Forzar en todos los divs y contenedores */
+div:not(.docx-page):not(.odt-page):not(article) {
+    background-color: #000000 !important;
+}
