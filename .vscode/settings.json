@@ -41,7 +41,7 @@
     "notificationCenterHeader.background": "#000000",
     "editorPane.background": "#000000",
     "searchEditor.findMatchBackground": "#000000",
-    "editor.selectionBackground": "#000000",
+    "editor.selectionBackground": "#264F78CC",
     "editor.inactiveSelectionBackground": "#00000000",
     "editor.lineHighlightBackground": "#000000",
     "editor.lineHighlightBorder": "#000000",
