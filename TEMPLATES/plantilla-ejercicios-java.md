@@ -1,4 +1,6 @@
 # Plantilla para resolver ejercicios Java
+ 
+> **Nota:** El lenguaje a usar en las soluciones será **Java** exclusivamente. No se aceptarán entregas en otros lenguajes a menos que el usuario lo pida explícitamente.
 
 Usa esta plantilla cada vez que trabajes un ejercicio Java en este proyecto. Está pensada para que sigas siempre los mismos pasos y entregues soluciones completas, claras y reproducibles.
 
