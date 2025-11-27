@@ -1,65 +1,19 @@
 {
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
-  },
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "editor.formatOnSaveTimeout": 5000,
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java",
-    "editor.formatOnSave": true
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "workbench.colorCustomizations": {
-    "editor.background": "#000000",
-    "editorWidget.background": "#000000",
-    "editor.foreground": "#FFFFFF",
-    "sideBar.background": "#000000",
-    "activityBar.background": "#000000",
-    "titleBar.activeBackground": "#000000",
-    "titleBar.inactiveBackground": "#000000",
-    "statusBar.background": "#000000",
-    "panel.background": "#000000",
-    "tab.activeBackground": "#000000",
-    "tab.inactiveBackground": "#000000",
-    "editorGutter.background": "#000000",
-    "list.hoverBackground": "#1a1a1a",
-    "input.background": "#000000",
-    "input.foreground": "#FFFFFF",
-    "panelInput.background": "#000000",
-    "panelInput.border": "#000000",
-    "quickInput.background": "#000000",
-    "notifications.background": "#000000",
-    "notificationCenterHeader.background": "#000000",
-    "editorPane.background": "#000000",
-    "searchEditor.findMatchBackground": "#000000",
-    "editor.selectionBackground": "#264F78CC",
-    "editor.inactiveSelectionBackground": "#00000000",
-    "editor.lineHighlightBackground": "#000000",
-    "editor.lineHighlightBorder": "#000000",
-    "editorOverviewRuler.background": "#000000",
-    "editorIndentGuide.background1": "#000000",
-    "editorWhitespace.foreground": "#000000",
-    "editorLineNumber.foreground": "#FFFFFF",
-    "editorLineNumber.activeForeground": "#FFFFFF",
-    "editorCursor.foreground": "#FFFFFF"
-  },
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "text",
-        "settings": {
-          "foreground": "#FFFFFF"
-        }
-      }
-    ]
-  }
+    "java.project.sourcePaths": ["."],
+    "java.project.referencedLibraries": [],
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000",
+        "editorWidget.background": "#000000",
+        "sideBar.background": "#000000",
+        "activityBar.background": "#000000",
+        "titleBar.activeBackground": "#000000",
+        "titleBar.inactiveBackground": "#000000",
+        "statusBar.background": "#000000",
+        "panel.background": "#000000",
+        "terminal.background": "#000000",
+        "editor.foreground": "#FFFFFF",
+        "terminal.foreground": "#FFFFFF",
+        "editorLineNumber.foreground": "#FFFFFF",
+        "editorCursor.foreground": "#FFFFFF"
+    }
 }
