@@ -4,6 +4,12 @@ Apuntes y ejercicios correspondientes al temario del CFGS de Desarrollo de Aplic
 
 Actualizado a octubre de 2025.
 
+## Requisitos de Java
+
+- **Objetivo:** Este proyecto está configurado para targetear **Java 21** mediante el Gradle toolchain.
+- **Guía de actualización:** ver `UPGRADE_TO_JAVA21.md` en la raíz del repositorio para pasos, comprobaciones y recomendaciones.
+
+
 ## 📂 Estructura del Proyecto
 
 ### [1DAW](1DAW/) - Primer Año
