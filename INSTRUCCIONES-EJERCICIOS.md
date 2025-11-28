@@ -19,28 +19,8 @@ Usa esta plantilla cada vez que trabajes un ejercicio Java en este proyecto. Est
 - **Pruebas ejecutadas:** resultados de ejecutar los casos de prueba.
 - **Comentarios y mejoras:** explicaciones, alternativas y optimizaciones posibles.
 
-## Formato obligatorio de entrega (un solo Markdown por ejercicio)
-
-- **Regla:** Cada ejercicio entregable debe estar en un único archivo Markdown titulado con el nombre del ejercicio, por ejemplo `NotasAlumno.md`.
-- **Contenido:** Ese único Markdown debe contener todas las secciones listadas arriba (Resumen, Entradas, Salidas, Restricciones, Casos de prueba, Algoritmo, Complejidad, Implementación Java, Pruebas ejecutadas, Comentarios y mejoras).
-- **Separadores:** Para mantener claridad dentro del mismo archivo usa una línea separadora con el siguiente formato al inicio de cada sección:
-
 ```
---- [SECCIÓN: Nombre de la sección] ---
-```
-
-Por ejemplo:
-
-```
---- [SECCIÓN: Resumen y Especificación] ---
---- [SECCIÓN: Pseudocódigo / Algoritmo] ---
---- [SECCIÓN: Implementación Java] ---
-```
-
-- **Ventajas:** mantener todo en un solo archivo facilita revisión, control de versiones y generación automática de entregas (CI/CD o exportación a PDF).
-- **Archivos auxiliares:** se pueden conservar los archivos auxiliares (diagramas, notas intermedias) en la carpeta del ejercicio, pero la entrega principal será el único `.md` del ejercicio.
-
-Si quieres que actualice el repositorio para convertir automáticamente los tres archivos actuales de `NotasAlumno` en un único `NotasAlumno.md`, indícamelo (ya lo hice como ejemplo en el repo).
+ - **Comentarios y mejoras:** explicaciones, alternativas y optimizaciones posibles.
 
 ## Receta paso a paso (siempre seguir)
 
@@ -119,3 +99,4 @@ Si quieres que actualice el repositorio para convertir automáticamente los tres
 ---
 
 _Plantilla copiada a la raíz del repositorio para uso como instrucciones generales._
+```
