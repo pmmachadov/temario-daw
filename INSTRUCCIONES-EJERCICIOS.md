@@ -7,6 +7,7 @@
 Usa esta plantilla cada vez que trabajes un ejercicio Java en este proyecto. Está pensada para que sigas siempre los mismos pasos y entregues soluciones completas, claras y reproducibles.
 
 ## Plantilla (qué entregar y en qué orden)
+
 - **Resumen:** breve enunciado del problema (1-2 líneas).
 - **Entradas:** listado y tipo de cada dato de entrada.
 - **Salidas:** qué debe devolver/imprimir el programa.
@@ -18,7 +19,31 @@ Usa esta plantilla cada vez que trabajes un ejercicio Java en este proyecto. Est
 - **Pruebas ejecutadas:** resultados de ejecutar los casos de prueba.
 - **Comentarios y mejoras:** explicaciones, alternativas y optimizaciones posibles.
 
+## Formato obligatorio de entrega (un solo Markdown por ejercicio)
+
+- **Regla:** Cada ejercicio entregable debe estar en un único archivo Markdown titulado con el nombre del ejercicio, por ejemplo `NotasAlumno.md`.
+- **Contenido:** Ese único Markdown debe contener todas las secciones listadas arriba (Resumen, Entradas, Salidas, Restricciones, Casos de prueba, Algoritmo, Complejidad, Implementación Java, Pruebas ejecutadas, Comentarios y mejoras).
+- **Separadores:** Para mantener claridad dentro del mismo archivo usa una línea separadora con el siguiente formato al inicio de cada sección:
+
+```
+--- [SECCIÓN: Nombre de la sección] ---
+```
+
+Por ejemplo:
+
+```
+--- [SECCIÓN: Resumen y Especificación] ---
+--- [SECCIÓN: Pseudocódigo / Algoritmo] ---
+--- [SECCIÓN: Implementación Java] ---
+```
+
+- **Ventajas:** mantener todo en un solo archivo facilita revisión, control de versiones y generación automática de entregas (CI/CD o exportación a PDF).
+- **Archivos auxiliares:** se pueden conservar los archivos auxiliares (diagramas, notas intermedias) en la carpeta del ejercicio, pero la entrega principal será el único `.md` del ejercicio.
+
+Si quieres que actualice el repositorio para convertir automáticamente los tres archivos actuales de `NotasAlumno` en un único `NotasAlumno.md`, indícamelo (ya lo hice como ejemplo en el repo).
+
 ## Receta paso a paso (siempre seguir)
+
 1. Leer y entender: identificar claramente qué se pide.
 2. Identificar I/O: anotar entradas, salidas y formato exacto.
 3. Detectar casos límite: valores mínimos, máximos, nulos y atípicos.
@@ -30,12 +55,14 @@ Usa esta plantilla cada vez que trabajes un ejercicio Java en este proyecto. Est
 9. Documentar: comentar intención, justificar complejidad.
 
 ## Cómo describir el algoritmo (elige 1 o 2)
+
 - Pseudocódigo: preferible para comunicación humana.
 - Organigrama (diagrama de flujo): útil para condicionales y bucles.
 - Nassi–Shneiderman: buena para estructuras anidadas.
 - Warnier / Jackson / Bertini / Tabourier: utilizar si el problema encaja en diseño por salida o árbol.
 
 ## Convenciones Java (rápidas)
+
 - **Nombres:** `camelCase` para variables/métodos, `PascalCase` para clases.
 - **Constantes:** `UPPER_SNAKE_CASE`.
 - **I/O:** `Scanner` o `BufferedReader` (preferir `BufferedReader` para mucho I/O).
@@ -44,16 +71,19 @@ Usa esta plantilla cada vez que trabajes un ejercicio Java en este proyecto. Est
 - **Comentarios:** Javadoc en métodos públicos y comentarios puntuales cuando la lógica no sea obvia.
 
 ## Notación y nombres de variables
+
 - En el diseño (pseudocódigo) puedes usar prefijos del temario (`intCoeficiente`, `rlnNota`).
 - En el código Java usa nombres descriptivos sin prefijos: `coeficienteA`, `discriminante`, `raiz1`.
 
 ## Plantilla de pseudocódigo (modelo)
+
 - Entrada: leer variables.
 - Inicio: inicializar contadores/estructuras.
 - Proceso: pasos con condiciones y bucles.
 - Salida: escribir resultado(s).
 
 ## Checklist antes de entregar
+
 - **Resumen:** objetivo claro.
 - **I/O:** formato respetado.
 - **Casos de prueba:** incluidos y correctos.
@@ -75,15 +105,17 @@ Usa esta plantilla cada vez que trabajes un ejercicio Java en este proyecto. Est
   - Ninguna real: a=1, b=0, c=1 → “No hay soluciones reales”.
 - **Pseudocódigo:**
   - leer a, b, c
-  - discr = b*b - 4*a*c
+  - discr = b*b - 4*a\*c
   - si discr < 0 escribir “No hay soluciones reales”
-  - sino si discr == 0 raiz = -b / (2*a); escribir raiz
+  - sino si discr == 0 raiz = -b / (2\*a); escribir raiz
   - sino s1 = (-b + sqrt(discr)) / (2*a); s2 = (-b - sqrt(discr)) / (2*a); escribir s1, s2
 - **Complejidad:** O(1) tiempo, O(1) espacio.
 
 ## Uso recomendado
+
 - Coloca esta plantilla en la raíz del repo y referencia su ruta `TEMPLATES/plantilla-ejercicios-java.md` cuando me pidas resolver un ejercicio.
 - Si quieres, puedo además generar una plantilla de proyecto Java completa (con `src/` y pruebas JUnit).
 
 ---
+
 _Plantilla copiada a la raíz del repositorio para uso como instrucciones generales._

@@ -1,42 +1,4 @@
 
-/**
- * CalculadoraDosNumeros
- *
- * Resumen: Pide dos números al usuario y una operación desde un menú
- * (1: Suma, 2: Resta, 3: Multiplicación, 4: División). La resta se realiza
- * siempre entre el número mayor y el menor. Se detecta la división entre 0
- * como imposible.
- *
- * Entradas:
- *  - num1 (real) : primer número (se permite decimal)
- *  - num2 (real) : segundo número
- *  - opcion (int) : elección de operación 1..4
- *
- * Salidas:
- *  - Resultado de la operación o mensaje de error/información (p.ej. "La división
- *    entre 0 es imposible.").
- *
- * Casos de prueba:
- *  - num1=5, num2=3, opcion=1 -> "La suma es: 8.0"
- *  - num1=2, num2=7, opcion=2 -> resta entre mayor y menor -> "La resta es: 5.0"
- *  - num1=4, num2=0, opcion=4 -> "La división entre 0 es imposible."
- *  - num1=3.5, num2=2, opcion=3 -> "La multiplicación es: 7.0"
- *
- * Pseudocódigo (estilo Java):
- *  - Abrir Scanner sc
- *  - Leer num1 (reintentar hasta que sea un número válido)
- *  - Leer num2 (reintentar hasta que sea un número válido)
- *  - Mostrar menú y leer opcion (reintentar hasta que opción válida 1..4)
- *  - switch(opcion):
- *      case 1: imprimir num1+num2
- *      case 2: imprimir max(num1,num2)-min(num1,num2)
- *      case 3: imprimir num1*num2
- *      case 4: si num2 == 0 -> imprimir mensaje de imposible; sino imprimir num1/num2
- *  - Cerrar scanner
- *
- * Complejidad: O(1) tiempo y O(1) espacio.
- */
-
 import java.util.Scanner;
 
 public class CalculadoraDosNumeros {
