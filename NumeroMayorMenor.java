@@ -4,20 +4,22 @@ public class NumeroMayorMenor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Leer primer número para inicializar mayor y menor
-        double numero;
+        // Declarar variables (se inicializan tras leer el primer número)
+        double numero, mayor, menor;
+        int contador;
         System.out.print("Introduce un número: ");
         while (!sc.hasNextDouble()) {
             System.out.println("Entrada no válida. Introduce un número.");
-            sc.next();
+            sc.next(); // Descartar token inválido
             System.out.print("Introduce un número: ");
         }
-        numero = sc.nextDouble();
+        numero = sc.nextDouble(); // Leer el primer número
 
-        double mayor = numero;
-        double menor = numero;
+        // inicializar mayor/menor/contador a partir del primer número leído
+        mayor = numero;
+        menor = numero;
 
-        int contador = 1; // ya leímos 1 número
+        contador = 1; // ya leímos 1 número
 
         // Bucle optimizado: leer los restantes hasta completar 3 números
         while (contador < 3) {
@@ -28,7 +30,7 @@ public class NumeroMayorMenor {
                 continue;
             }
 
-            numero = sc.nextDouble();
+            numero = sc.nextDouble(); // Leer el siguiente número
 
             if (numero > mayor) {
                 mayor = numero;

@@ -19,6 +19,8 @@ Usa esta plantilla cada vez que trabajes un ejercicio Java en este proyecto. Est
 - **Pruebas ejecutadas:** resultados de ejecutar los casos de prueba.
 - **Comentarios y mejoras:** explicaciones, alternativas y optimizaciones posibles.
 
+- **Nota sobre pseudocódigo y pruebas:** El pseudocódigo debe incluir explícitamente la apertura del lector de entrada (por ejemplo `Scanner sc = new Scanner(System.in)`), la validación de entradas (por ejemplo `sc.hasNextDouble()` o equivalente) y la limpieza del token inválido con `sc.next()` cuando corresponda. No incluir en este archivo los resultados de ejecución ni las salidas de las pruebas; los ejemplos probados o registros de ejecución se entregan por separado si se solicitan.
+
 ```
  - **Comentarios y mejoras:** explicaciones, alternativas y optimizaciones posibles.
 
@@ -28,10 +30,10 @@ Usa esta plantilla cada vez que trabajes un ejercicio Java en este proyecto. Est
 2. Identificar I/O: anotar entradas, salidas y formato exacto.
 3. Detectar casos límite: valores mínimos, máximos, nulos y atípicos.
 4. Elegir estrategia algorítmica: ordenar, búsqueda, recursión, DP, estructuras, etc.
-5. Escribir pseudocódigo: claro y sin sintaxis Java detallada.
-6. Validar pseudocódigo con ejemplos.
+5. Escribir pseudocódigo: claro y sin sintaxis Java detallada. Asegúrate de que el pseudocódigo muestre cómo se abre y cierra el lector, cómo se valida la entrada y cómo se descarta/limpia un token inválido (por ejemplo usando `sc.next()`).
+6. Validar pseudocódigo con ejemplos (localmente).
 7. Implementar en Java: seguir convenciones y separar responsabilidades.
-8. Probar y depurar con los casos propuestos.
+8. Probar y depurar localmente; NO incluir los resultados de ejecución ni las salidas de las pruebas en este archivo.
 9. Documentar: comentar intención, justificar complejidad.
 
 ## Cómo describir el algoritmo (elige 1 o 2)
@@ -66,23 +68,19 @@ Usa esta plantilla cada vez que trabajes un ejercicio Java en este proyecto. Est
 
 - **Resumen:** objetivo claro.
 - **I/O:** formato respetado.
-- **Casos de prueba:** incluidos y correctos.
 - **Nombres:** claros y consistentes.
 - **Manejo de errores:** validaciones implementadas.
 - **Complejidad:** razonada.
 - **Comentarios:** suficientes.
 - **Compilación:** compila sin errores.
-- **Ejecución:** pasa los casos de prueba incluidos.
+- **Pruebas:** probar localmente; no incluir resultados de ejecución en este archivo.
 
 ## Ejemplo completo: ecuación de segundo grado
 
 - **Resumen:** calcular raíces reales de ax^2 + bx + c = 0.
 - **Entradas:** `a`, `b`, `c` (reales; `a != 0`).
 - **Salidas:** 0, 1 o 2 raíces reales según el discriminante.
-- **Casos de prueba:**
-  - Normal: a=1, b=-3, c=2 → raíces 2 y 1.
-  - Única raíz: a=1, b=2, c=1 → raíz -1.
-  - Ninguna real: a=1, b=0, c=1 → “No hay soluciones reales”.
+<!-- Se han eliminado los casos de prueba concretos de este ejemplo. -->
 - **Pseudocódigo:**
   - leer a, b, c
   - discr = b*b - 4*a\*c
